@@ -73,7 +73,7 @@ function draw(){
        paddle1Y=rightWristY;
     }
     //paddle1Y = mouseY; is deleted
-   rect(paddle1X,paddle1Y,paddle1,paddle1Height,100);
+   rect(0,paddle1Y,paddle1,paddle1Height,100);
    
    
     //pc computer paddle
