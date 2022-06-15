@@ -65,7 +65,7 @@ function draw(){
    fill(250,0,0);
     stroke(0,0,250);
     strokeWeight(0.5);
-    if(score>0.2)
+    if(scoreRightWrist>0.2)
     {
        fill('red');
        stroke('white');
