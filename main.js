@@ -1,5 +1,5 @@
 
-/*created by prashant shukla */
+/*created by prashant shukla  */
 var rightWristX = 0;
 var rightWristY = 0;
 var scoreRightWrist = 0;
