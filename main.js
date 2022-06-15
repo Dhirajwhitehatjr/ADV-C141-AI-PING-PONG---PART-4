@@ -2,7 +2,7 @@
 /*created by prashant shukla */
 var rightWristX = 0;
 var rightWristY = 0;
-var score = 0;
+var scoreRightWrist = 0;
 var paddle2 =10,paddle1=10;
 
 var paddle1X = 10,paddle1Height = 110;
@@ -42,7 +42,7 @@ function gotPoses(results)
     console.log(results);
     rightWristX=results[0].pose.rightWrist.x;
     rightWristY=results[0].pose.rightWrist.y;
-    score=results[0].pose.score;
+    scoreRightWrist = results[0].pose.keypoints[10].score;
   }
 }
 function draw(){
